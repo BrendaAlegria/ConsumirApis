@@ -2,20 +2,23 @@ export function Menu(){
     return(
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand" href="#">Datos de Firebase </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav me-auto mb-3 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+          <a className="nav-link active" aria-current="page" href="/">Usuarios</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/product">Productos</a>
+          <a className="nav-link active" aria-current="page" href="/Product">Productos</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Texto</a>
+          <a className="nav-link active" aria-current="page" href="/Nuevo">Nuevo Usuario</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/NuevoProducto">Nuevo Producto</a>
         </li>
       </ul>
       <form className="d-flex" role="search">
